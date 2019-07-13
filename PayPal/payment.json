@@ -1,0 +1,35 @@
+{
+   "intent":"SALE",
+   "application_context":{
+      "locale":"pt-BR",
+      "brand_name":"SaberSobre - Diretório de Sites",
+      "shipping":"NO_SHIPPING"
+   },
+   "purchase_units":[{
+      "reference_id":"ins",
+      "description":"Plano: Assinatura Anual. Validade: 01 (12 Meses)",
+      "amount":{
+         "currency":"BRL",
+         "total":"5.25",
+         "details":{
+            "subtotal":"5.25"
+         }
+      },
+      "payee":{
+         "email":"vendedor@sabersobre.com.br"
+      },
+      "items":[{
+         "currency":"BRL",
+         "name":"Básico",
+         "price":"5.25",
+         "quantity":"1"
+      }]
+   }],
+   "payer":{
+      "payment_method":"paypal"
+   },
+   "redirect_urls":{
+      "return_url":"https://v2.sabersobre.com/paypal-success.asp",
+      "cancel_url":"https://v2.sabersobre.com/paypal-cancel.asp"
+   }
+}
